@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Academy: Блог</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,cyrillic" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="main-header">
+    <input class="inp-toogle hidden" type="checkbox" id="toogle">
+    <div class="navigation-wrapper">
+      <div class="navigation layout">
+        <a class="logo" href="index.html">PINK</a>
+        <label class="navigation__toogle" for="toogle"></label>
+        <nav  class="navbar">
+          <ul  class="navbar__list">
+            <li class="navbar__item">
+              <a href="index.html">Информация</a>
+            </li>
+            <li class="navbar__item">
+              <a href="blog.html">Блог</a>
+            </li>
+            <li class="navbar__item">
+              <a href="index.html#review">Отзывы</a>
+            </li>
+            <li class="navbar__item">
+              <a href="form.html">Конкурс</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="promo"><h1 class="promo__header">Блог путешественников, пользователей Пинк</h1></div>
+  </header>
+  <main class="blog layout">
+    <div class="blog__item">
+      <div class="blog__decor hidden-xs"></div>
+      <article class="promo-post">
+        <h3 class="promo-post__title"><a href="post/post_1.html">Антон и Надя в Тайланде</a></h3>
+        <span class="promo-post__date">Опубликовано: 6 месяцев назад</span>
+        <p class="promo-post__text">Читайте рассказ о том, как семейная пара посещала Тайланд, стараясь максимально избегать избитых туристических мест и районов.</p>
+      </article>
+    </div>
+    <div class="blog__item">
+      <div class="blog__decor hidden-xs"></div>
+      <article class="promo-post">
+        <h3 class="promo-post__title"><a href="#">Гастрольный тур «Кубанских борщеваров»</a></h3>
+        <span class="promo-post__date">Опубликовано: 5 лет назад</span>
+        <p class="promo-post__text">Возрождение культурных традиций уже не за горами. Фолк-металл-рэп-группа из столицы Кубани провела весь год в гастролях по России и ближнему (а также среднему) зарубежью.</p>
+      </article>
+    </div>
+    <div class="blog__item">
+      <div class="blog__decor hidden-xs"></div>
+      <article class="promo-post">
+        <h3 class="promo-post__title"><a href="#">Чета Болонских в Париже</a></h3>
+        <span class="promo-post__date">Опубликовано: 100 лет назад</span>
+        <p class="promo-post__text">Невероятные приключения русских во Франции. Интриги, предательства, погони и, разумеется, убийства. Читайте криминально-исторический трактат в двух томах.</p>
+      </article>
+    </div>
+    <div class="blog__item">
+      <div class="blog__decor hidden-xs"></div>
+      <article class="promo-post">
+        <h3 class="promo-post__title"><a href="#">Путешествие на яхте сеньора Христофора</a></h3>
+        <span class="promo-post__date">Опубликовано: 523 года назад</span>
+        <p class="promo-post__text">Группа испанцев отдыхала на яхте, но они даже не представляли, какие открытия ждут их впереди и чем это обернется для всего человечества!</p>
+      </article>
+    </div>
+    <div class="pagination">
+      <span class="pagination__decor hidden-xs">СТР.</span>
+      <div class="pagination__item active"><a href="#">1</a></div>
+      <div class="pagination__item"><a href="#">2</a></div>
+      <div class="pagination__item"><a href="#">3</a></div>
+      <div class="pagination__item"><a href="#">4</a></div>
+    </div>
+  </main>
+  <footer class="main-footer layout">
+    <a class="main-footer__logo" href="index.html">pink</a>
+    <div class="social">
+      <a class="social__btn social__btn--twitter" href="#">twitter</a>
+      <a class="social__btn social__btn--facebook" href="#">facebook</a>
+      <a class="social__btn social__btn--vector" href="#">vector</a>
+    </div>
+    <div class="footer-developed">
+      <a class="htmlacademy" href="">Разработано<span class="academy-logo"></span></a>
+    </div>
+  </footer>
+</body>
+</html>
